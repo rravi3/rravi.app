@@ -1,0 +1,150 @@
+body {
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: #FFFFF0;
+}
+
+.nav-container {
+    background-color: rgba(138, 43, 226, 0.5);
+    display: flex;
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-title {
+    margin-left: 50px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 5px 10px 5px 10px;
+    border-radius: 15px;
+}
+
+#socials {
+    position: relative;
+    margin-right: 30px;
+    display: flex;
+}
+
+#socials span {
+    margin-right: 20px;
+    padding: 5px;
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+}
+
+#socials a {
+    text-decoration: none;
+    color: black;
+}
+
+#socials img {
+    width: 25px;
+    height: auto;
+    margin-right: 5px;
+}
+
+#socials span:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+}
+
+#bio-container {
+    display: flex;
+}
+
+#bio-container h2 {
+    margin-left: 50px;
+    font-size: 40px;
+}
+
+#bio-paragraphs {
+    width: 75%;
+}
+
+#bio-paragraphs p {
+    font-size: 14px;
+    text-indent: 40px;
+    text-align: justify;
+}
+
+#bio-picture {
+    padding-left: 40px;
+    overflow: hidden;
+    width: 25%;
+    display: flex;
+}
+
+#bio-picture img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 25px;
+    align-self: flex-end;
+    max-height: 400px;
+    margin-top: 30px;
+}
+
+.projects-container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#projects-section-title {
+    font-size: 30px;
+}
+
+.project-cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.project-card {
+    background-color: #e0e0e0;
+    border-radius: 25px;
+    aspect-ratio: 1;
+    position: relative;
+    min-width: 320px;
+}
+
+.project-details {
+    background-color: rgb(239, 190, 121);
+    border-top: 4px solid rgb(219, 165, 89);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    height: 40%;
+}
+
+.project-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.tech-used-container {
+    /* margin-top: 10px; */
+    line-height: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    top: 20px;
+}
+
+.tech-label {
+    background-color: blueviolet;
+    padding: 5px;
+    border-radius: 10px;
+    color: #FFFFF0;
+    font-size: 14px;
+    vertical-align: center;
+}
