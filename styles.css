@@ -110,6 +110,11 @@ body {
     aspect-ratio: 1;
     position: relative;
     min-width: 320px;
+    overflow: hidden;
+}
+
+.project-card img {
+    width: 100%;
 }
 
 .project-details {
