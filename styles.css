@@ -104,6 +104,11 @@ body {
     margin-right: 50px;
 }
 
+.project-cards-container a {
+    all: unset;
+    cursor: pointer;
+}
+
 .project-card {
     background-color: #e0e0e0;
     border-radius: 25px;
@@ -111,10 +116,18 @@ body {
     position: relative;
     min-width: 320px;
     overflow: hidden;
+    transition: 0.2s ease-out;
+}
+
+.project-card:hover {
+    outline: 3px solid black;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
 }
 
 .project-card img {
     width: 100%;
+    border-radius: 25px;
 }
 
 .project-details {
