@@ -110,7 +110,8 @@ body {
 }
 
 .project-card {
-    background-color: #e0e0e0;
+    /* background-color: #e0e0e0; */
+    background-color: transparent;
     border-radius: 25px;
     aspect-ratio: 1;
     position: relative;
@@ -120,7 +121,7 @@ body {
 }
 
 .project-card:hover {
-    outline: 3px solid black;
+    /* outline: 3px solid black; */
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     transform: scale(1.1);
 }
@@ -132,6 +133,8 @@ body {
 
 .project-details {
     background-color: rgb(239, 190, 121);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
     border-top: 4px solid rgb(219, 165, 89);
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
@@ -149,13 +152,16 @@ body {
 .tech-used-container {
     /* margin-top: 10px; */
     line-height: 35px;
-    margin-left: 10px;
-    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
     align-items: center;
-    position: absolute;
     display: flex;
-    bottom: 0;
     top: 20px;
+}
+
+.tech-used {
+    width: 100%;
 }
 
 .tech-label {
